@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
+
+    <!-- document meta attributes -->
     <meta charset="utf-8"/>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0"/>
@@ -11,12 +13,28 @@
     <meta name="keywords"
           content="Mawang Pedia, Mawang, Pedia"/>
     <title>Mawang Pedia</title>
+
+    <!-- css area -->
     <link href="./res/css/style.css" rel="stylesheet"/>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
   </head>
 
   <body>
-    <div></div>
-    <button>Click Me!</button>
+    <!-- main content -->
+    <picture>
+      <source media="(min-width:720px)"
+              srcset="./public/ss_1.jpg"/>
+      <source media="(min-width:650px)"
+              srcset="./public/ss_1.jpg"/>
+      <source media="(min-width:100px)"
+              srcset="./public/ss_1.jpg"/>
+      <source media="(min-width:1280px)"
+              srcset="./public/ss_1.jpg"/>
+    </picture>
+    
+    <!-- script area -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./res/js/main.js"></script>
   </body>
 </html>
