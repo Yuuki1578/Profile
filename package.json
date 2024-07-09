@@ -9,6 +9,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*"
+  },
   "devDependencies": {
     "vite": "^5.3.1"
   }
